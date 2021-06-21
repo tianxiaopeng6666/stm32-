@@ -1,0 +1,86 @@
+T31FC 000:054.841   SEGGER J-Link V7.21a (beta) Log File
+T31FC 000:055.019   DLL Compiled: May  7 2021 17:12:18
+T31FC 000:055.030   Logging started @ 2021-05-14 08:45
+T31FC 000:055.040 - 55.046ms
+T31FC 000:055.057 JLINK_SetWarnOutHandler(...)
+T31FC 000:055.070 - 0.017ms
+T31FC 000:055.082 JLINK_OpenEx(...)
+T31FC 000:056.399   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T31FC 000:056.754   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T31FC 000:056.992   Decompressing FW timestamp took 213 us
+T31FC 000:063.422   Hardware: V9.20
+T31FC 000:063.451   S/N: 4294967295
+T31FC 000:063.464   OEM: SEGGER
+T31FC 000:063.477   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash, RDDI
+T31FC 000:064.940   TELNET listener socket opened on port 19021
+T31FC 000:065.176   WEBSRV Starting webserver
+T31FC 000:065.414   WEBSRV Webserver running on local port 19080
+T31FC 000:065.434 - 10.357ms returns "O.K."
+T31FC 000:065.462 JLINK_SetErrorOutHandler(...)
+T31FC 000:065.472 - 0.015ms
+T31FC 000:065.496 JLINK_ExecCommand("ProjectFile = "D:\GitHub\实验2 蜂鸣器实验\USER\JLinkSettings.ini"", ...). 
+T31FC 000:075.069   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T31FC 000:075.193   XML referenced by ref file: D:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T31FC 000:076.084   D:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T31FC 000:090.539 - 25.058ms returns 0x00
+T31FC 000:096.217 JLINK_ExecCommand("Device = STM32F411RCTx", ...). 
+T31FC 000:101.801   Device "STM32F411RC" selected.
+T31FC 000:102.477 - 6.233ms returns 0x00
+T31FC 000:102.508 JLINK_GetHardwareVersion()
+T31FC 000:102.518 - 0.015ms returns 92000
+T31FC 000:102.530 JLINK_GetDLLVersion()
+T31FC 000:102.539 - 0.014ms returns 72101
+T31FC 000:102.550 JLINK_GetOEMString(...)
+T31FC 000:102.568 JLINK_GetFirmwareString(...)
+T31FC 000:102.578 - 0.014ms
+T31FC 000:111.121 JLINK_GetDLLVersion()
+T31FC 000:111.152 - 0.035ms returns 72101
+T31FC 000:111.163 JLINK_GetCompileDateTime()
+T31FC 000:111.171 - 0.012ms
+T31FC 000:115.619 JLINK_GetFirmwareString(...)
+T31FC 000:115.651 - 0.037ms
+T31FC 000:118.156 JLINK_GetHardwareVersion()
+T31FC 000:118.176 - 0.024ms returns 92000
+T31FC 000:120.656 JLINK_GetSN()
+T31FC 000:120.688 - 0.035ms returns -1
+T31FC 000:120.699 JLINK_GetOEMString(...)
+T31FC 000:125.769 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T31FC 000:126.432 - 0.673ms returns 0x00
+T31FC 000:126.450 JLINK_HasError()
+T31FC 000:126.469 JLINK_SetSpeed(20000)
+T31FC 000:126.558 - 0.096ms
+T31FC 000:126.574 JLINK_GetId()
+T31FC 000:131.682   InitTarget() start
+T31FC 000:131.724    J-Link Script File: Executing InitTarget()
+T31FC 000:635.279   Can not attach to CPU. Trying connect under reset.
+T31FC 001:191.722   Connecting to CPU via connect under reset failed.
+T31FC 001:246.922   InitTarget() end
+T31FC 001:311.916   InitTarget() start
+T31FC 001:311.955    J-Link Script File: Executing InitTarget()
+T31FC 001:817.076   Can not attach to CPU. Trying connect under reset.
+T31FC 002:371.488   Connecting to CPU via connect under reset failed.
+T31FC 002:425.503   InitTarget() end
+T31FC 002:425.556 - 2298.989ms returns 0x00000000
+T26D8 009:629.955 Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T26D8 009:630.134 Looking for J-Link GUI Server exe at: D:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T26D8 009:630.160 Forking J-Link GUI Server: D:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T26D8 009:666.941   J-Link GUI Server info: "J-Link GUI server V7.21a "
+T273C 049:247.946   JLINK_RTTERMINAL_Control(Cmd = JLINKARM_RTTERMINAL_CMD_STOP)
+T273C 049:247.972   - 0.032ms returns 0x01
+T43E4 058:688.367   
+  ***** Error: 
+T43E4 058:688.419   Communication timed out: Requested 6 bytes, received 0 bytes !
+T32B0 058:714.684   
+  ***** Error: Connection to emulator lost!
+T32B0 077:807.403   
+  ***** Error: Connection to emulator lost!
+T32B0 266:121.029   
+  ***** Error: Connection to emulator lost!
+T32B0 292:717.218   
+  ***** Error: Connection to emulator lost!
+T32B0 508:766.600   
+  ***** Error: Connection to emulator lost!
+T31FC 603:672.041 JLINK_Close()
+T31FC 603:691.767 - 19.753ms
+T31FC 603:691.800   
+T31FC 603:691.811   Closed
